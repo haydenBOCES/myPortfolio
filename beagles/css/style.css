@@ -1,0 +1,132 @@
+/* 
+Blue?: #5a618c
+Tan: #d9c6b0
+Dark Brown: #261709
+Brown: #734822
+Light Brown: #d9ab82
+*/
+
+body, header, nav, main, footer, h1, div, img, ul, form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #d9c6b0;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	display: block;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	display: block;
+}
+
+#g {
+	background-color: #261709;
+	color: #d9ab82;
+}
+
+blockquote {
+	font-size: 1.5em;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-radius: 45px;
+}
+
+#size {
+	width: 40%;
+	height: 40%;
+}
+
+#right {
+	float: right;
+}
+
+form {
+	text-align: center;
+}
+
+label {
+	font-size: 1.5em;
+}
+
+.btn {
+	font-size: 1.3em;
+	margin: 0 10px;
+}
+
+/* Navigation */
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: #261709;
+}
+	
+nav li {
+	font-size: 1.5em;
+	display: inline-block;
+	border-right: 1px solid #d9c6b0;
+}
+	
+nav li:last-child {
+	border-right: none;
+}
+	
+nav li a {
+	padding: 0.1em 0.75em;
+	display: block;
+	color: #d9ab82;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+#h {
+	background-color: #5a618c;
+	text-align: center;
+}
+
+footer ul {
+	list-style-type: none;
+	background-color: #000;
+}
+	
+footer li {
+	font-size: 1.5em;
+	display: inline-block;
+	border-right: 1px solid #000;
+	color: #000;
+}
+	
+#last-child {
+	border-right: none;
+}
+	
+footer li a {
+	padding: 0.1em 0.75em;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #000;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
