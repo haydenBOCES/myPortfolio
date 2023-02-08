@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navbar Practice</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		
+		nav {
+			margin: 0;
+			padding: 10px 25px;
+		}
+		
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			background-color: brown;
+		}
+		
+		nav li {
+			display: inline-block;
+		}
+		
+		nav a {
+			padding: 10px 25px;
+			color: azure;
+			font-size: 2em;
+			text-decoration: none;
+		}
+		
+		nav a:hover {
+			background-color: azure;
+			color: brown;
+		}
+		
+		footer {
+			margin-top: 50px;
+		}
+		
+		.footNav ul {
+			list-style-type: none;
+			text-align: right;
+			background-color: burlywood;
+		}
+		
+		.footNav {
+			padding: 5px 10px;
+			font-size: .8em;
+		}
+		
+		.footNav a {
+			color: brown;
+		}
+		
+		.footNav a:hover {
+			background-color: burlywood;
+			color: azure;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Music</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<footer>
+		<nav class="footNav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Music</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
