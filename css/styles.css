@@ -1,99 +1,249 @@
 /* CSS Document */
-/* Colors and Fonts:
 
-Nav Grey: #787878
-Section 1 Red: #bf2128
-Section 2 Green: #2dba63
-Section 3 Blue: #326da8
-Text White: #ededed
+/* Colors:
 
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
-*/ 
+Off White: #F1F2E9
+Off Black: #070D06
+Grey: #414141
+Lighter Grey: #555555
 
+
+Fonts:
+
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+/***** CSS Reset *****/
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 
-/* Header Styles */
-
-nav {
-	text-align: center;
-	padding: 1% 0%;
-	background-color: #787878;
+/***** Box Model Fix *****/
+html {
+	box-sizing: border-box;
 }
 
-nav li {
-	display: inline;
-	padding: 2% 4% 0%;
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: url("../images/com64BG.jpg") top left;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***** Header Section *****/
+
+header {
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-family: 'Merriweather';
+	font-size: 3em;
+	margin-top: -25px;
+	padding-top: 1em;
+	padding-left: 85px;
+	text-shadow: 10px 10px 15px #070D06;
+	color: #F1F2E9;
+}
+
+header h2 {
+	font-family: 'Merriweather';
+	font-size: 3em;
+	margin-top: -25px;
+	padding-top: 1em;
+	padding-left: 130px;
+	text-shadow: 10px 10px 15px #070D06;
+	color: #F1F2E9;
+}
+
+
+header nav {
+	background: #A0A69899;
+	padding: 20px 30px 5px 0px; /* TRouBLe */
+	min-height: 75px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin: 0px 20px;
+}
+
+header nav a {
+	color: #070D06;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
 	font-size: 2em;
 }
 
-nav li a {
-	text-decoration: none;
-	color: #ededed;
+header nav a:hover {
+	color: #414141;
+	text-decoration: underline;
 }
 
-nav li a:hover {
-	background-color: #000000;
-}
+/***** End of Header Section *****/
 
-header {
-	background-image: url("../images/rgb.jpg");
-	height: 800px;
-}
+/***** Main *****/
 
-header h1, header h2 {
+/***** Projects Section *****/
+#projects {
+	margin: 0;
+	padding: 5px;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
 	text-align: center;
-	margin: 2% 0;
-	color: #ededed;
-	font-size: 4em;
+	
 }
 
-header  h1 {
-	padding-top: 15%;
-}
-
-/* Body */
-
-main h2 {
+#projects img {
 	float: left;
-	padding-left: 2%;
-	font-size: 2.5em;
+	margin-right: 100px;
+	justify-content: center;
 }
 
-/*
-#bio p, #proj p {
-	float: left;
-	padding-left: 2%;
-	font-size: 1.5em;
-	display: inline-block;
+#prjHeader {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+	background-color: #41414199;
+	padding: 2%;
+	color: #F1F2E9;
 }
-*/
+/***** End of Projects Section *****/
 
-div {
-	display: block;
+/***** About Section *****/
+#about {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
 }
 
-img {
-	max-width: 30%;
+#about img {
 	float: right;
-	padding: 1%;
+	margin-left: 100px;
+	justify-content: center;
 }
 
-#bio {
-	background-color: #bf2128;
-	display: block;
+#about p {
+	margin-top: 75px;
+	justify-content: center;
+	font-size: 1.5em;
 }
 
-#proj {
-	background-color: #2dba63;
+#about h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	padding-left: 110px;
 }
+
+/***** End of About Section *****/
+
+/***** End of Main Section *****/
+
+/***** Contact Section *****/
 
 #contact {
-	background-color: #326da8;
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
 }
 
-/* Footer */
+#contact p {
+	margin-top: 3%;
+	text-align: center;
+	font-size: 1.75em;
+}
+
+#contact h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+#contact a {
+	color: #F1F2E9;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+}
+
+#contact a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+
+/***** End of Contact Section *****/
+
+/***** Footer Section *****/
+
+footer {
+	background: #070D0688;
+	color: #F1F2E9;
+	text-align: center;
+	min-height: 400px;
+}
+
+footer nav {
+	background: #F1F2E999;
+	padding: 10px 0px 10px 0px; /* TRouBLe */
+	min-height: 75px;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+footer nav li {
+	display: inline-block;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	margin: 0 1.5em;
+	padding: 10px 0px 0px;
+}
+
+footer nav a {
+	color: #070D06;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+	font-size: 1.5em;
+}
+
+footer nav a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+
+footer h3,h4,h5,h6,p {
+	font-family: 'Roboto Mono';
+}
