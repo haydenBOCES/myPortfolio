@@ -2,10 +2,10 @@
 /* Colors and Fonts:
 
 Nav Grey: #787878
-Section 1 Red: #BF2128
-Section 2 Green: #2DBA63
-Section 3 Blue: #326DA8
-Text White: #EDEDED
+Section 1 Red: #bf2128
+Section 2 Green: #2dba63
+Section 3 Blue: #326da8
+Text White: #ededed
 
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
@@ -40,25 +40,52 @@ nav li a:hover {
 	background-color: #000000;
 }
 
-header h1, h2 {
-	float: left;
-	margin-left: 10%;
+header {
+	background-image: url("../images/rgb.jpg");
+	height: 800px;
 }
 
-header h2 {
-	display: block;
+header h1, header h2 {
+	text-align: center;
+	margin: 2% 0;
+	color: #ededed;
+	font-size: 4em;
+}
+
+header  h1 {
+	padding-top: 15%;
 }
 
 /* Body */
 
-#bio {
-	background-color: #bf2128;
-	margin-top: 10px;
-	display: block
+main h2 {
+	float: left;
+	padding-left: 2%;
+	font-size: 2.5em;
 }
 
-#bio h2 {
+/*
+#bio p, #proj p {
 	float: left;
+	padding-left: 2%;
+	font-size: 1.5em;
+	display: inline-block;
+}
+*/
+
+div {
+	display: block;
+}
+
+img {
+	max-width: 30%;
+	float: right;
+	padding: 1%;
+}
+
+#bio {
+	background-color: #bf2128;
+	display: block;
 }
 
 #proj {
