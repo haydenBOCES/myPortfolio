@@ -1,0 +1,72 @@
+/* CSS Document */
+/* Colors and Fonts:
+
+Nav Grey: #787878
+Section 1 Red: #BF2128
+Section 2 Green: #2DBA63
+Section 3 Blue: #326DA8
+Text White: #EDEDED
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/ 
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Header Styles */
+
+nav {
+	text-align: center;
+	padding: 1% 0%;
+	background-color: #787878;
+}
+
+nav li {
+	display: inline;
+	padding: 2% 4% 0%;
+	font-size: 2em;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #ededed;
+}
+
+nav li a:hover {
+	background-color: #000000;
+}
+
+header h1, h2 {
+	float: left;
+	margin-left: 10%;
+}
+
+header h2 {
+	display: block;
+}
+
+/* Body */
+
+#bio {
+	background-color: #bf2128;
+	margin-top: 10px;
+	display: block
+}
+
+#bio h2 {
+	float: left;
+}
+
+#proj {
+	background-color: #2dba63;
+}
+
+#contact {
+	background-color: #326da8;
+}
+
+/* Footer */
