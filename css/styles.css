@@ -31,7 +31,7 @@ html {
 }
 
 body {
-	background: url("../images/com64BG.jpg") top-left;
+	background: url("../images/com64BG.jpg") top left;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -131,7 +131,6 @@ header nav a:hover {
 	padding: 2%;
 	color: #F1F2E9;
 }
-/***** End of Projects Section *****/
 
 /***** About Section *****/
 #about {
@@ -162,9 +161,25 @@ header nav a:hover {
 	padding-left: 110px;
 }
 
-/***** End of About Section *****/
+/***** Button *****/
 
-/***** End of Main Section *****/
+button {
+	margin: 2% 45%;
+	background-color: #000000;
+	padding: 1.5%;
+	border-radius: 8px;
+}
+
+button a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #ededed;
+}
+
+button:hover {
+	text-decoration: underline;
+	background-color: #414141;
+}
 
 /***** Contact Section *****/
 
@@ -201,7 +216,101 @@ header nav a:hover {
 	text-decoration: underline;
 }
 
-/***** End of Contact Section *****/
+/***** Objectives Section *****/
+
+#objectives {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#objectives img {
+	float: right;
+	margin-left: 100px;
+	justify-content: center;
+}
+
+#objectives p {
+	margin-top: 75px;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+#objectives h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	padding-left: 110px;
+}
+
+/***** Skills Section *****/
+
+#skills {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#skills p {
+	margin-top: 1.5%;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+#skills h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+#skills ul {
+	display: inline-block;
+	padding: 2%;
+}
+
+#skills li {
+	margin-top: 1.5%;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+/***** Education Section *****/
+
+#education {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#education img {
+	float: left;
+	margin-left: 2%;
+	width: 30%
+}
+
+#education p {
+	margin: 1.5%;
+	font-size: 1.5em;
+}
+
+#education h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+/***** End of Main Section *****/
 
 /***** Footer Section *****/
 
